@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #a65a46;
+}
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);}
+
+.img-sidebar img{
+    width: 70%;
+    border-radius: 50%;
+    border: 6px solid #c27e6d;
+}
+.img-sidebar{
+    text-align: center;
+}
+.menu{
+margin: 20px 0;
+text-align: center;
+position: relative;
+}
+
+.menu a{
+color: white;
+font-size: 19px;
+text-decoration: none;
+display: block;
+margin-bottom: 20px;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    background-color: #cbf7f1;
+    overflow-y: auto;
+    padding: 0 3%;
+    
+}
+section.curiosidades{
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    color: #6e736f;   
+}
+
+section.curiosidades h3{
+    margin-top: 40px;
+}
+
+section.curiosidades h2 > span{
+    color: #c27e6d;
+}
+
+section.curiosidades p > span{
+    color: #c27e6d;
+    font-size: 20px;
+}
+
+p{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
